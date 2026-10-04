@@ -11,5 +11,4 @@ on:
 jobs:
   build:
     name: Build cross-platform artifacts
-    uses: ./.github/workflows/ci.yml
-    secrets: inherit
+    uses: ./.github/workflows/build-matrix.yml
